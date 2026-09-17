@@ -1,0 +1,251 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Todo: put here your site title -->
+  <title>Bhaskar Jhorar | Full Stack Developer</title>
+
+  <meta name="keywords"
+    content="Bhaskar Jhorar, Full Stack Developer, MERN Stack Developer, React.js, Node.js, Express.js, MongoDB, PostgreSQL, Web Developer" />
+
+  <meta name="description"
+    content="Bhaskar Jhorar is a Full Stack Developer specializing in MERN Stack, React.js, Node.js, Express.js, MongoDB, and PostgreSQL." />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</head>
+
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        Hi, my name is <span class="text-color-main">Bhaskar Jhorar</span>
+        <br />
+        I'm a Full Stack Developer.
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img class="img-fluid rounded shadow-lg" width="300" src="assets/profile1.jpg" alt="Bhaskar Jhorar" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              I am a passionate Full Stack Developer with experience in building modern web applications using React.js,
+              Node.js, Express.js, MongoDB, and PostgreSQL. I enjoy solving real-world problems through technology and
+              creating applications that are scalable, responsive, and user-friendly. Having worked on projects ranging
+              from performance management systems to e-commerce platforms and real-time multiplayer applications, I am
+              constantly learning and improving my skills to become a better developer every day. My focus is on writing
+              clean code, building reliable solutions, and delivering meaningful user experiences.
+            </p>
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Taarvik — Menswear E-Commerce Platform</h3>
+              <div>
+                <p class="mb-4">
+                  Built and shipped a live, production e-commerce site for everyday menswear essentials.
+                  Developed the frontend in Next.js and the backend API in Node.js and Express.js.
+                  Designed and managed the PostgreSQL database schema (via pgAdmin) for products, orders, and users.
+                  Implemented product browsing, wishlist, cart, order tracking, and newsletter subscription.
+                  Owned both frontend and backend independently, from schema design to deployed UI.
+                </p>
+                <h1 class="project-wrapper__text-title">Technologies Used:</h1>
+                <p class="mb-4">
+                  Next.js, Node.js, Express.js, PostgreSQL, pgAdmin
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://taarvik.co.in">
+                See Live
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Multiplayer Ludo Game</h3>
+              <div>
+                <p class="mb-4">
+                  Developed a real-time multiplayer Ludo game with an interactive UI and smooth animations.
+                  Implemented Socket.io for live player interactions and synchronization.
+                  Designed responsive game boards optimized for different screen sizes.
+                  Used Express.js to handle server-side routing and manage game sessions efficiently.
+                </p>
+                <h1 class="project-wrapper__text-title">Technologies Used:</h1>
+                <p class="mb-4">
+                  React.js, Node.js, Express.js, Socket.io
+                </p>
+              </div>
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a> -->
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project1.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">HRMS — Self Evaluation Portal</h3>
+
+              <div>
+                <p class="mb-4">
+                  Designed and built an HR performance management portal that lets employees complete digital
+                  self-evaluations, with role-based dashboards for Admin, HR, and Employee access. Built the full
+                  evaluation workflow — self-assessment submission, manager feedback, performance ratings, progress
+                  tracking, evaluation deadlines, and historical records. Owned both frontend and backend end to end.
+                </p>
+              </div>
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a> -->
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project2.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper load-hidden">
+        <p class="contact-wrapper__text">I'm currently looking for Full Stack Developer and MERN Stack Developer
+          opportunities. If you'd like to discuss a project, collaboration, or job opportunity, feel free to get in
+          touch.</p>
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:bhaskarjhorar@gmail.com">Get In
+          Touch</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="social-links">
+      <a rel="noreferrer" href="https://www.linkedin.com/in/bhaskarjhorar/" target="_blank">
+        <i class="fa fa-linkedin fa-inverse"></i>
+      </a>
+
+      <a rel="noreferrer" href="https://github.com/bhaskarjhorar-byte" target="_blank">
+        <i class="fa fa-github fa-inverse"></i>
+      </a>
+
+      <a rel="noreferrer" href="mailto:bhaskarjhorar@gmail.com">
+        <i class="fa fa-envelope fa-inverse"></i>
+      </a>
+    </div>
+
+    <hr />
+
+    <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+    <p class="footer__text">
+      © 2026 Bhaskar Jhorar. All Rights Reserved.
+    </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+
+  <script defer type="module" src="index.js"></script>
+</body>
+
+</html>
